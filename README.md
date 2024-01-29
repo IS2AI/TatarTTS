@@ -42,7 +42,7 @@ mkdir TatarTTS_piper
 cd TatarTTS_piper
 mkdir male female
 ```
-Pre-processing the male speaker dataset:
+## Pre-processing the male speaker dataset
 ```
 python3 -m piper_train.preprocess \
   --language tt \
@@ -52,7 +52,7 @@ python3 -m piper_train.preprocess \
   --single-speaker \
   --sample-rate 22050
 ```
-Pre-processing the female speaker dataset:
+## Pre-processing the female speaker dataset
 ```
 python3 -m piper_train.preprocess \
   --language tt \
@@ -66,7 +66,7 @@ python3 -m piper_train.preprocess \
 ```
 cd piper/src/python
 ```
-Train on the male speaker dataset:
+## Training on the male speaker dataset
 ```
 python3 -m piper_train \
     --dataset-dir /TatarTTS_piper/male\
@@ -79,7 +79,7 @@ python3 -m piper_train \
     --checkpoint-epochs 1 \
     --precision 32
 ```
-Train on the female speaker dataset:
+## Training on the female speaker dataset
 ```
 python3 -m piper_train \
     --dataset-dir /TatarTTS_piper/female\
@@ -122,3 +122,7 @@ python3 piper --model /path/to/model/.onnx --config /path/to/model/config.json -
 ```
 
 # Citation
+
+# References
+1. Piper: https://github.com/rhasspy/piper
+2. Pre-processing, training, and exporting: https://github.com/rhasspy/piper/blob/master/TRAINING.md
