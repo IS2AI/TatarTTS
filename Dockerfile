@@ -31,7 +31,7 @@ RUN micromamba install --name base --verbose --yes --file env.yaml && \
     micromamba clean --all --yes
 
 
-ARG MAMBA_DOCKERFILE_ACTIVATE=1
-RUN pip uninstall -y onnxruntime # Is installed with piper-tts
+# ARG MAMBA_DOCKERFILE_ACTIVATE=1
+
 #USER root
 #USER $MAMBA_USER
