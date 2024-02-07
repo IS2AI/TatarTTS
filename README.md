@@ -125,7 +125,6 @@ python3 piper --model /path/to/model/.onnx --config /path/to/model/config.json -
 ```
 
 # Authors and Citation
-## Authors and Citation
 The project has been developed in academic collaboration between [ISSAI](https://issai.nu.edu.kz/) and [Institute of Applied Semiotics of Tatarstan Academy of Sciences](https://www.antat.ru/ru/ips/)
 ```
 Daniil Orel, Askat Kuzdeuov, Rinat Gilmullin, Bulat Khakimov, Huseyin Atakan Varol.
