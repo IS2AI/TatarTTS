@@ -128,9 +128,9 @@ python3 piper --model /path/to/model/.onnx --config /path/to/model/config.json -
 ## Authors and Citation
 The project has been developed in academic collaboration between [ISSAI](https://issai.nu.edu.kz/) and [Institute of Applied Semiotics of Tatarstan Academy of Sciences](https://www.antat.ru/ru/ips/)
 ```
-Daniil Orel, Askat Kuzdeuov, Rinat Gilmullin, et al. TatarTTS: An Open-Source
-Text-to-Speech Synthesis Dataset for the Tatar Language. TechRxiv. February 06, 2024.
-DOI: 10.36227/techrxiv.170723255.52161895/v1
+Daniil Orel, Askat Kuzdeuov, Rinat Gilmullin, Bulat Khakimov, Huseyin Atakan Varol.
+TatarTTS: An Open-Source Text-to-Speech Synthesis Dataset for the Tatar Language.
+TechRxiv. February 06, 2024. DOI: 10.36227/techrxiv.170723255.52161895/v1
 ```
 # References
 1. Piper: https://github.com/rhasspy/piper
