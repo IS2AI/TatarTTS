@@ -1,6 +1,9 @@
 # TatarTTS Dataset
 TatarTTS is an open-source text-to-speech dataset for the Tatar language. The dataset comprises ~70 hours of transcribed audio recordings, featuring two professional speakers (one male and one female).
 
+# Preprint on TechRxiv 
+[TatarTTS: An Open-Source Text-to-Speech Synthesis Dataset for the Tatar Language](https://www.techrxiv.org/doi/full/10.36227/techrxiv.170723255.52161895/v1)
+
 # Setup and Requirements
 We employed [Piper](https://github.com/rhasspy/piper) text-to-speech system to train TTS models on our dataset. 
 ```
@@ -16,7 +19,7 @@ pip3 install -e .
 Please check the [installation guide](https://github.com/rhasspy/piper/blob/master/TRAINING.md) for more information.
 
 # Downloading the dataset
-Download the TatarTTS dataset and put it inside ```piper/src/python/``` directory. The dataset is in the ljspeech format.
+**LINK TO DOWNLOAD WILL BE AVAILABLE SOON HERE**. After downloading the dataset, unzip it inside ```piper/src/python/``` directory. The dataset is in the ljspeech format.
 ```
 TatarTTS
 |-male
@@ -121,8 +124,13 @@ cd piper/src/python_run
 python3 piper --model /path/to/model/.onnx --config /path/to/model/config.json --output-file welcome.wav
 ```
 
-# Citation
-
+# Authors and Citation
+The project has been developed in academic collaboration between [ISSAI](https://issai.nu.edu.kz/) and [Institute of Applied Semiotics of Tatarstan Academy of Sciences](https://www.antat.ru/ru/ips/)
+```
+Daniil Orel, Askat Kuzdeuov, Rinat Gilmullin, Bulat Khakimov, Huseyin Atakan Varol.
+TatarTTS: An Open-Source Text-to-Speech Synthesis Dataset for the Tatar Language.
+TechRxiv. February 06, 2024. DOI: 10.36227/techrxiv.170723255.52161895/v1
+```
 # References
 1. Piper: https://github.com/rhasspy/piper
 2. Pre-processing, training, and exporting: https://github.com/rhasspy/piper/blob/master/TRAINING.md
