@@ -28,6 +28,7 @@ async def lifespan(app):
         logger.debug("Loading model: {}", model_name)
         models[model_name] = PiperVoice.load(f'{settings.storage_folder}/{model_name}.onnx', use_cuda=False)
     yield
+    models.clear()
 
 
 app = FastAPI(title="TatarTTS", lifespan=lifespan)
