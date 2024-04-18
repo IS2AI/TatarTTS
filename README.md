@@ -1,8 +1,11 @@
 # TatarTTS Dataset
 TatarTTS is an open-source text-to-speech dataset for the Tatar language. The dataset comprises ~70 hours of transcribed audio recordings, featuring two professional speakers (one male and one female).
 
-# Preprint on TechRxiv 
+# Paper on TechRxiv 
 [TatarTTS: An Open-Source Text-to-Speech Synthesis Dataset for the Tatar Language](https://www.techrxiv.org/doi/full/10.36227/techrxiv.170723255.52161895/v1)
+
+# Paper on IEEE
+[TatarTTS: An Open-Source Text-to-Speech Synthesis Dataset for the Tatar Language](https://ieeexplore.ieee.org/abstract/document/10463261)
 
 # Setup and Requirements
 We employed [Piper](https://github.com/rhasspy/piper) text-to-speech system to train TTS models on our dataset. 
