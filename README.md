@@ -22,7 +22,7 @@ pip3 install -e .
 Please check the [installation guide](https://github.com/rhasspy/piper/blob/master/TRAINING.md) for more information.
 
 # Downloading the dataset
-**LINK TO DOWNLOAD WILL BE AVAILABLE SOON HERE**. After downloading the dataset, unzip it inside ```piper/src/python/``` directory. The dataset is in the ljspeech format.
+[Tatar TTS dataset on HuggingFace](https://huggingface.co/datasets/issai/TatarTTS). After downloading the dataset, unzip it inside ```piper/src/python/``` directory. The dataset is in the ljspeech format.
 ```
 TatarTTS
 |-male
