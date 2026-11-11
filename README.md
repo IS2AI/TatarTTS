@@ -108,7 +108,7 @@ cp /path/to/training_dir/config.json \
    /path/to/model.onnx.json
 ```
 # Speech Synthesis with Pre-trained Models
-Download and unzip pre-trained models (.onnx, .ckpt) for both speakers from [Google Drive](https://drive.google.com/drive/folders/1YmtDVYLVogEfw3SE7GUl0LHZaIojAeap?usp=sharing).
+Download and unzip pre-trained models (.onnx, .ckpt) for both speakers from [HF(https://huggingface.co/datasets/issai/TatarTTS).
 ## CLI
 ```
 cd models
